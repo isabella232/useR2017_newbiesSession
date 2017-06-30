@@ -17,55 +17,109 @@ output:
 
 ## UseR! conference
 
-* ~ 900 participants
-* 16 tutorials, 112 talks, 6 concurrent lightning talk session
-  (~10 talks/session)
+* ~ 1200 participants
+* diverse program:
+    + 16 tutorials
+    + 112 talks
+    + 6 concurrent lightning talk session (~10 talks/session)
+    + 6 keynotes session
+* social program
+    + welcome reception
+    + poster session
+    + conference dinner
+    
+## Live information
 
+* website: https://user2017.brussels with schedule, news, info
+* social networks: twitter [#useR2017](https://twitter.com/UseR_Brussels)
 
-## Organization (1)
+## Preparation
 
-* website: https://user2017.brussels
-* useR!2017 app: [iOS App
-  store](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1246681655&mt=8)
+* plan session attendance in advance:
+    + website
+    + useR!2017 schedule app:  
+    [iOS
+      App store](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1246681655&mt=8)
   or [Google Play
   Store](https://play.google.com/store/apps/details?id=org.sched.user2017)
-* possibility to provide picture
+    + brochure
+    + possibility to provide picture
+* 'clear your schedule'
 
-## Organization (2)
+## Tips
 
-* plan session attendance in advance (cf app, wifi?)
 * tutorials: check presenter guidelines
 * multiple concurrent sessions:
      + can leave/change session (discreetly)
-* ask for help: conference organizers
-* 'clear your schedule'     
+* ask for help: 
+    + crew
+    + info point
+
+## Sponsors
+
+* visit sponsor area:
+    + goodies
+    + live contact
+    + career opportunities 
      
 ## Meeting opportunity
 
 * dare to approach people/speakers during conference
      + ask questions during/after presentations, during breaks...
-     + poster session: less informal
-     + social networks: 
-         + [twitter: #useR2017](https://twitter.com/UseR_Brussels)
-         + facebook
-* stay out of your confort zone
+     + poster session: more informal
+* move of your comfort zone
+* attend to sessions of interest: skip sessions for networking
      
 ## Take it back home
 
-* take notes: presenter, topic(s), new ideas/packages     
-* slides, videos?
+* take notes: 
+    + presenter, topic(s), new ideas/packages
+    + bloc-note in conference bag
+* share conference insights with colleagues
+* slides available after conference in conference website
+* videos by Microsoft
 
 ## In practice
 
-* dress confortably
+* dress comfortably
+* enjoy beer with moderation
 
-## Bonus
+## Bonus: Brussels, 'center' of Europe {.centered .smaller}
 
-* Extra time for tourism: 
-     + Belgium: cities, specialities
-     + Brussels, 'center' of Europe
+<center>
+```{r mapUseR}
 
-## Conclusions
+	iconsMap <- iconList(
+		useR = makeIcon("./images/useR2017_logo.png", 
+			iconWidth = 250, iconHeight = 60)
+	)
 
-* Enjoy the UseR! 2017 conference!
+	library(leaflet)
+	leaflet(width = 600, height = 400, padding = 10) %>% 
+		addProviderTiles(provider = "OpenStreetMap.France") %>% 
+		setView(lng = 4.321240, lat = 50.822312, zoom = 12) %>% 
+		addMarkers(lng = 4.321240, lat = 50.822312, 
+			icon = iconsMap["useR"],
+			label = "UseR 2017: Wild Gallery")
+	
+```
+</center>
+
+<span style="font-size:0.5em;">
+
+* Flanders: http://www.visitflanders.com/
+* Wallonia: http://www.belgium-tourism.be/
+* Belgium cities: [Brussels](https://visit.brussels/en),
+  [Antwerpen](http://www.visitantwerpen.be/en),
+  [Ghent](https://visit.gent.be/en/home), [Liège](http://www.liege.be/tourisme)
+  
+</span>  
+
+## {.centered}
+
+<span style="font-size:3em;">**Enjoy** </span>
+ 
+<br>
+
+ <img src="./images/useR2017_logo.png" alt="Smiley face" height="150" width="700"> 
 
