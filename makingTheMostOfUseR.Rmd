@@ -14,6 +14,11 @@ output:
 	knitr::opts_chunk$set(eval = TRUE, echo = FALSE)
 	library(exampleReportingPackage)
 ```
+    
+## Live information
+
+* website: https://user2017.brussels with schedule, news, info
+* social networks: twitter [#useR2017](https://twitter.com/UseR_Brussels)
 
 ## UseR! conference
 
@@ -27,11 +32,6 @@ output:
     + welcome reception
     + poster session
     + conference dinner
-    
-## Live information
-
-* website: https://user2017.brussels with schedule, news, info
-* social networks: twitter [#useR2017](https://twitter.com/UseR_Brussels)
 
 ## Preparation
 
@@ -64,20 +64,17 @@ output:
      
 ## Meeting opportunity
 
-* dare to approach people/speakers during conference
-     + ask questions during/after presentations, during breaks...
-     + poster session: more informal
-* move of your comfort zone
-* attend to sessions of interest: skip sessions for networking
+* dare to approach attendees/speakers during conference
+     + ask questions during/after presentations, during breaks
+     + poster session: less formal
+* move out of your comfort zone
+* skip sessions for networking
      
 ## Take it back home
 
-* take notes: 
-    + presenter, topic(s), new ideas/packages
-    + bloc-note in conference bag
+* take notes: presenter, topic(s), new ideas/packages
 * share conference insights with colleagues
-* slides available after conference in conference website
-* videos by Microsoft
+* slides/videos available after conference
 
 ## In practice
 
@@ -120,5 +117,5 @@ output:
  
 <br>
 
- <img src="./images/useR2017_logo.png" alt="Smiley face" height="150" width="700"> 
+ <img src="./images/useR2017_logo.png" alt="logo" height="150" width="700"> 
 
