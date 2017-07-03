@@ -89,12 +89,11 @@ output:
 <center>
 ```{r mapUseR}
 
+	library(leaflet)
 	iconsMap <- iconList(
 		useR = makeIcon("./images/useR2017_logo.png", 
 			iconWidth = 250, iconHeight = 60)
 	)
-
-	library(leaflet)
 	leaflet(width = 600, height = 400, padding = 10) %>% 
 		addProviderTiles(provider = "OpenStreetMap.France") %>% 
 		setView(lng = 4.321240, lat = 50.822312, zoom = 12) %>% 
@@ -110,7 +109,7 @@ output:
 * Flanders: http://www.visitflanders.com/
 * Wallonia: http://www.belgium-tourism.be/
 * Belgium cities: [Brussels](https://visit.brussels/en),
-  [Antwerpen](http://www.visitantwerpen.be/en),
+  [Antwerp](http://www.visitantwerpen.be/en),
   [Ghent](https://visit.gent.be/en/home), [Liège](http://www.liege.be/tourisme)
   
 </span>  
