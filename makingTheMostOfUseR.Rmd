@@ -12,7 +12,6 @@ output:
 	options(width = 150)
 	library(knitr)
 	knitr::opts_chunk$set(eval = TRUE, echo = FALSE)
-	library(exampleReportingPackage)
 ```
     
 ## Live information
